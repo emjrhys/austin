@@ -4,7 +4,7 @@ div#category
   h2 {{ categories[category].title }}
   div.entry(v-for='entry in categories[category].entries')
     div.details__wrapper
-      img
+      img(:src='`/images/${entry.image_url}`')
       div.details
         h3 {{ entry.title }}
         h4 {{ entry.subtitle }}
