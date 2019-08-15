@@ -1,0 +1,194 @@
+
+{
+  "food-drink": {
+    "title": "Food & Drink",
+    "entries": [
+      {
+        "title": "Hopdoddy Burger Bar",
+        "subtitle": "",
+        "address": "Multiple locations",
+        "image_url": "",
+        "maps_url": "https://www.google.com/maps/search/hopdoddy+burger+bar/@30.3033728,-97.7593271,12.83z",
+        "url": "https://www.hopdoddy.com/"
+      },
+      {
+        "title": "P. Terry's Burger Stand",
+        "subtitle": "The best fast-food burger",
+        "address": "Multiple Locations",
+        "image_url": "",
+        "maps_url": "https://www.google.com/maps/search/p.+terry's+burger+stand/@30.303361,-97.7593271,12z/data=!3m1!4b1",
+        "url": "https://pterrys.com/"
+      },
+      {
+        "title": "Catfish Parlour",
+        "subtitle": "Family favorite with great hush puppies",
+        "address": "Multiple locations",
+        "image_url": "",
+        "maps_url": "https://www.google.com/maps/search/catfish+parlour/@30.3241792,-97.7732645,11.94z",
+        "url": "https://catfishparlour.weebly.com/"
+      },
+      {
+        "title": "The Oasis",
+        "subtitle": "Watch the sun set over Lake Travis",
+        "address": "6550 Comanche Trail",
+        "image_url": "",
+        "maps_url": "https://goo.gl/maps/fRqVPYxGEJJPhru1A",
+        "url": "http://www.oasis-austin.com/"
+      },
+      {
+        "title": "The Picnic - Food Truck Park",
+        "subtitle": "Austin's premier food trailer park",
+        "address": "1720 Barton Springs Rd",
+        "image_url": "",
+        "maps_url": "https://goo.gl/maps/DCLhfCHLibdsaP6x5",
+        "url": "https://www.thepicnicaustin.com/"
+      },
+      {
+        "title": "Torchy's Tacos",
+        "subtitle": "Tacos deserving of a PowerPoint presentation",
+        "address": "",
+        "image_url": "",
+        "maps_url": "",
+        "url": "https://torchystacos.com/"
+      },
+      {
+        "title": "Easy Tiger",
+        "subtitle": "Bake shop & beer garden",
+        "address": "709 E 6th St",
+        "image_url": "",
+        "maps_url": "https://goo.gl/maps/jxuxProxceugzfD16",
+        "url": "https://www.easytigerusa.com/"
+      },
+      {
+        "title": "Whataburger",
+        "subtitle": "You need a honey butter",
+        "address": "Multiple locations",
+        "image_url": "",
+        "maps_url": "",
+        "url": "https://whataburger.com/"
+      },
+      {
+        "title": "Punch Bowl Social",
+        "subtitle": "Food, drink, bowling, arcade, virtual reality, karaoke, and more",
+        "address": "",
+        "image_url": "",
+        "maps_url": "",
+        "url": "https://www.punchbowlsocial.com/location/austin"
+      }
+    ]
+  },
+  "arts-entertainment": {
+    "title": "Arts & Entertainment",
+    "entries": [
+      {
+        "title": "Alamo Drafthouse",
+        "subtitle": "",
+        "address": "",
+        "image_url": "",
+        "maps_url": "",
+        "url": "https://drafthouse.com/austin"
+      },
+      {
+        "title": "Blanton Museum of Art",
+        "subtitle": "",
+        "address": "",
+        "image_url": "",
+        "maps_url": "",
+        "url": "https://blantonmuseum.org/"
+      },
+      {
+        "title": "Bob Bullock Texas State History Museum",
+        "subtitle": "",
+        "address": "",
+        "image_url": "",
+        "maps_url": "",
+        "url": "https://www.thestoryoftexas.com/"
+      },
+      {
+        "title": "Pinballz",
+        "subtitle": "",
+        "address": "",
+        "image_url": "",
+        "maps_url": "",
+        "url": "https://www.pinballzarcade.com/"
+      },
+      {
+        "title": "Texas State Capitol",
+        "subtitle": "",
+        "address": "",
+        "image_url": "",
+        "maps_url": "",
+        "url": "https://tspb.texas.gov/prop/tc/tc/capitol.html"
+      },
+      {
+        "title": "Guitartown",
+        "subtitle": "",
+        "address": "",
+        "image_url": "",
+        "maps_url": "",
+        "url": "https://www.austinphotobook.com/2011/05/05/where-are-the-gibson-guitartown-austin-art-guitars-now/"
+      }
+    ]
+  },
+  "nature": {
+    "title": "Nature",
+    "entries": [
+      {
+        "title": "Zilker Park",
+        "subtitle": "",
+        "address": "",
+        "image_url": "",
+        "maps_url": "",
+        "url": "http://zilkerpark.org/"
+      },
+      {
+        "title": "Barton Creek",
+        "subtitle": "",
+        "address": "",
+        "image_url": "",
+        "maps_url": "",
+        "url": "https://austinparks.org/barton-creek-greenbelt/"
+      },
+      {
+        "title": "Lake Travis",
+        "subtitle": "",
+        "address": "",
+        "image_url": "",
+        "maps_url": "",
+        "url": ""
+      },
+      {
+        "title": "Hamilton Pool",
+        "subtitle": "",
+        "address": "",
+        "image_url": "",
+        "maps_url": "",
+        "url": "https://parks.traviscountytx.gov/parks/hamilton-pool-preserve"
+      },
+      {
+        "title": "Jacob's Well",
+        "subtitle": "",
+        "address": "",
+        "image_url": "",
+        "maps_url": "",
+        "url": "https://www.visitwimberley.com/jacobswell/"
+      },
+      {
+        "title": "Hippie Hollow",
+        "subtitle": "",
+        "address": "",
+        "image_url": "",
+        "maps_url": "",
+        "url": "https://parks.traviscountytx.gov/parks/hippie-hollow"
+      },
+      {
+        "title": "Pennybacker Bridge Overlook",
+        "subtitle": "",
+        "address": "",
+        "image_url": "",
+        "maps_url": "",
+        "url": "https://www.hikingproject.com/trail/7042333/pennybacker-bridge-overlook-trail"
+      }
+    ]
+  }
+}
