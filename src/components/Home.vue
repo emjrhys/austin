@@ -3,7 +3,7 @@ div#home
   div.welcome
     h2 Welcome to
     h1 Austin
-  router-link.title-card(:to='key', v-for='(category, key, index) in categories', :key='key', v-if='index === 0', :style='{ "background-image": `url("/images/${category.image_url}")` }') 
+  router-link.title-card(:to='key', v-for='(category, key, index) in categories', :key='key', v-if='index === 0', :style='{ "background-image": `url("${publicPath}images/${category.image_url}")` }') 
     h2 {{ category.title }}
 </template>
 
@@ -12,6 +12,11 @@ import { mapState } from 'vuex'
 
 export default {
   name: 'Home',
+  data () {
+    return {
+      publicPath: process.env.BASE_URL
+    }
+  },
   computed: mapState(['categories'])
 }
 </script>

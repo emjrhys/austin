@@ -1,22 +1,22 @@
 <template lang='pug'>
 div#category
-  router-link.title-card(to='/', :style='{ "background-image": `url("/images/${categories[category].image_url}")` }') 
+  router-link.title-card(to='/', :style='{ "background-image": `url("${publicPath}images/${categories[category].image_url}")` }') 
     div.back Back
     h2 {{ categories[category].title }}
   div.entries__wrapper
     div.entry(v-for='(entry, index) in categories[category].entries', :key='index')
       div.details__wrapper(:class='{ reverse: index % 2 === 0 }')
         div.image__wrapper
-          img(:src='`/images/${entry.image_url}`')
+          img(:src='`${publicPath}images/${entry.image_url}`')
         div.details
           h3 {{ entry.title }}
           h4 {{ entry.subtitle }}
       div.links__wrapper
         a.maps-link(:href='entry.maps_url') 
-          img(src='/icons/maps.png')
+          img(:src='`${publicPath}icons/maps.png`')
           span View on map
         a.web-link(:href='entry.url') 
-          img(src='/icons/web.png')
+          img(:src='`${publicPath}icons/web.png`')
 </template>
 
 <script>
@@ -25,6 +25,11 @@ import { mapState } from 'vuex'
 export default {
   name: 'CategoryView',
   props: ['category'],
+  data () {
+    return {
+      publicPath: process.env.BASE_URL
+    }
+  },
   computed: mapState(['categories'])
 }
 </script>
