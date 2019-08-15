@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: "austin-cheat-sheet"
+  publicPath: "austin"
 } 
