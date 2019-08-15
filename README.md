@@ -1,4 +1,4 @@
-# austin-cheatsheet
+# Austin Cheat Sheet
 
 ## Project setup
 ```

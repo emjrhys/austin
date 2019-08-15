@@ -1,16 +1,22 @@
 <template lang='pug'>
 div#category
-  router-link(to='/') Back
-  h2 {{ categories[category].title }}
-  div.entry(v-for='entry in categories[category].entries')
-    div.details__wrapper
-      img(:src='`/images/${entry.image_url}`')
-      div.details
-        h3 {{ entry.title }}
-        h4 {{ entry.subtitle }}
-    div.links__wrapper
-      a.maps-link(:href='entry.maps_url') View on map
-      a.web-link(:href='entry.url') Visit website
+  router-link.title-card(to='/', :style='{ "background-image": `url("/images/${categories[category].image_url}")` }') 
+    div.back Back
+    h2 {{ categories[category].title }}
+  div.entries__wrapper
+    div.entry(v-for='(entry, index) in categories[category].entries', :key='index')
+      div.details__wrapper(:class='{ reverse: index % 2 === 0 }')
+        div.image__wrapper
+          img(:src='`/images/${entry.image_url}`')
+        div.details
+          h3 {{ entry.title }}
+          h4 {{ entry.subtitle }}
+      div.links__wrapper
+        a.maps-link(:href='entry.maps_url') 
+          img(src='/icons/maps.png')
+          span View on map
+        a.web-link(:href='entry.url') 
+          img(src='/icons/web.png')
 </template>
 
 <script>
@@ -23,38 +29,105 @@ export default {
 }
 </script>
 
-<style lang='scss'>
-h3 {
-  font-size: 1.25rem;
-  font-weight: bold;
+<style lang='scss' scoped>
+.title-card {
+  margin-bottom: 1rem;
 }
 
-h4 {
-  font-weight: bold;
-  color: #DD614A;
+.entries__wrapper {
+  padding: 0 0.5rem 3rem;
 }
 
+.entry {
+  margin-bottom: 2rem;
+}
 
+.details__wrapper {
+  display: flex;
+  align-items: flex-end;
+
+  border: 1px solid #ebeef5;
+  border-radius: 0.35rem;
+  
+  background-color: #fff;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, .15);
+
+  overflow: hidden;
+
+  &.reverse {
+    flex-direction: row-reverse;
+  }
+
+  .image__wrapper {
+    flex: 0 0 30%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    img {
+      flex-shrink: 0;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .details {
+    flex: 1;
+    padding: 1rem;
+
+    text-align: left;
+
+    h4 {
+      margin-top: .25rem;
+
+      font-weight: 500;
+      color: #DD614A;
+    }
+  }
+}
 
 .links__wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
 
   a {
     display: inline-block;
     padding: 0.5rem 1rem;
 
+    border-radius: 2rem;
     color: #fff;
     font-weight: bold;
     text-decoration: none;
+
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .15);
+
+    cursor: pointer;
+
+    img {
+      width: 1rem;
+      height: auto;
+    }
   }
-}
 
-.maps-link {
-  background-color: #246A73;
-}
+  .maps-link {
+    background-color: #1B998B;
 
-.web-link {
-  background-color: #368F8B;
+    img {
+      position: relative;
+      top: 2px;
+      width: .8rem;
+      margin-right: 0.5rem;
+    }
+  }
+
+  .web-link {
+    margin-left: 0.5rem;
+    padding: 0.4rem 0.5rem;
+    background-color: #2D3047;
+  }
 }
 </style>

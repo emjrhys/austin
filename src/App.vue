@@ -64,25 +64,68 @@ html, body {
 }
 
 body {
-  background-color: #EEE2DF;
+  background-color: #f7f0ec;
   color: #071108;
+
+  font-family: 'Roboto', sans-serif;
 }
 
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  margin-top: 60px;
+}
+
+h1, h2, h3 {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: bold;
 }
 
 h1 {
   font-size: 2rem;
-  font-weight: bold;
 }
 
 h2 {
   font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+.title-card {
+  position: relative;
+  display: block;
+  height: 10rem;
+
+  background-position: center center;
+  background-size: cover;
+
+  color: #fff;
+  text-decoration: none;
   font-weight: bold;
+
+  cursor: pointer;
+
+  .back {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+  }
+
+  h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+
+    background-color: rgba(0, 0, 0, .5);
+    font-size: 2rem;
+  }
 }
 </style>
