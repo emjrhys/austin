@@ -3,7 +3,7 @@ div#home
   div.welcome
     h2 Welcome to
     h1 Austin
-  router-link.title-card(:to='key', v-for='(category, key, index) in categories', :key='key', v-if='index === 0', :style='{ "background-image": `url("${publicPath}images/${category.image_url}")` }') 
+  router-link.title-card(:to='key', v-for='(category, key, index) in categories', :key='key', :style='{ "background-image": `url("${publicPath}images/${category.image_url}")` }') 
     h2 {{ category.title }}
 </template>
 
@@ -22,6 +22,10 @@ export default {
 </script>
 
 <style lang='scss'>
+#home {
+  padding-bottom: 5rem;
+}
+
 .welcome {
   margin: 2rem 0;
 
@@ -40,5 +44,9 @@ export default {
     font-weight: bold;
     color: #38281a;
   }
+}
+
+.title-card {
+  margin-bottom: 1rem;
 }
 </style>

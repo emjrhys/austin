@@ -38,7 +38,7 @@
       },
       {
         "title": "Punch Bowl Social",
-        "subtitle": "Food, drink, bowling, arcade, virtual reality, karaoke, and more",
+        "subtitle": "Food, drinks, bowling, arcade games, virtual reality, karaoke, and more",
         "address": "11310 Domain Dr, Austin",
         "image_url": "punchbowlsocial.jpg",
         "maps_url": "https://goo.gl/maps/jvi836gu36wyhpaS8",
@@ -55,7 +55,7 @@
       {
         "title": "P. Terry's Burger Stand",
         "subtitle": "The best fast-food burger",
-        "address": "Multiple Locations",
+        "address": "Multiple locations",
         "image_url": "pterrys.jpg",
         "maps_url": "https://www.google.com/maps/search/p.+terry's+burger+stand/@30.303361,-97.7593271,12z/data=!3m1!4b1",
         "url": "https://pterrys.com/"
@@ -63,7 +63,7 @@
       {
         "title": "Torchy's Tacos",
         "subtitle": "Tacos deserving of a PowerPoint presentation",
-        "address": "Multiple Locations",
+        "address": "Multiple locations",
         "image_url": "torchys.jpg",
         "maps_url": "https://www.google.com/maps/search/torchys+tacos/@30.2737199,-97.7698787,13.77z",
         "url": "https://torchystacos.com/"
@@ -80,115 +80,117 @@
   },
   "arts-entertainment": {
     "title": "Arts & Entertainment",
+    "image_url": "blanton.jpg",
     "entries": [
       {
         "title": "Alamo Drafthouse",
-        "subtitle": "",
-        "address": "",
-        "image_url": "",
-        "maps_url": "",
+        "subtitle": "A twist on the traditional movie theater with great food, drinks, and special events",
+        "address": "Multiple locations",
+        "image_url": "drafthouse.jpg",
+        "maps_url": "https://www.google.com/maps/search/alamo+drafthouse/@30.2876249,-97.8335087,12.06z",
         "url": "https://drafthouse.com/austin"
       },
       {
         "title": "Blanton Museum of Art",
-        "subtitle": "",
-        "address": "",
-        "image_url": "",
-        "maps_url": "",
+        "subtitle": "Small but gorgeous museum located downtown",
+        "address": "200 E Martin Luther King Jr Blvd",
+        "image_url": "blanton-square.jpg",
+        "maps_url": "https://goo.gl/maps/xnoqVBNVtDAkXeRd7",
         "url": "https://blantonmuseum.org/"
       },
       {
         "title": "Bob Bullock Texas State History Museum",
-        "subtitle": "",
-        "address": "",
-        "image_url": "",
-        "maps_url": "",
+        "subtitle": "Catch up on the story of Texas",
+        "address": "1800 Congress Ave",
+        "image_url": "bullock.jpg",
+        "maps_url": "https://goo.gl/maps/1xHrnqSYgrMGzXak6",
         "url": "https://www.thestoryoftexas.com/"
       },
       {
-        "title": "Pinballz",
-        "subtitle": "",
-        "address": "",
-        "image_url": "",
-        "maps_url": "",
+        "title": "Pinballz Arcade",
+        "subtitle": "BYOB after dark",
+        "address": "8940 Research Blvd",
+        "image_url": "pinballz.jpg",
+        "maps_url": "https://goo.gl/maps/nmzjazYcBrEpuUbb7",
         "url": "https://www.pinballzarcade.com/"
       },
       {
         "title": "Texas State Capitol",
-        "subtitle": "",
-        "address": "",
-        "image_url": "",
-        "maps_url": "",
+        "subtitle": "Where the sausage gets made",
+        "address": "1100 Congress Ave",
+        "image_url": "capitol.jpg",
+        "maps_url": "https://goo.gl/maps/QiWU9zn2bgw48RsJ6",
         "url": "https://tspb.texas.gov/prop/tc/tc/capitol.html"
       },
       {
         "title": "Guitartown",
-        "subtitle": "",
-        "address": "",
-        "image_url": "",
-        "maps_url": "",
+        "subtitle": "Art installation scattered around downtown",
+        "address": "All over downtown & the airport",
+        "image_url": "guitartown.jpg",
+        "maps_url": null,
         "url": "https://www.austinphotobook.com/2011/05/05/where-are-the-gibson-guitartown-austin-art-guitars-now/"
       }
     ]
   },
   "nature": {
     "title": "Nature",
+    "image_url": "nature.jpg",
     "entries": [
       {
-        "title": "Zilker Park",
-        "subtitle": "",
-        "address": "",
-        "image_url": "",
-        "maps_url": "",
+        "title": "Zilker Metropolitan Park",
+        "subtitle": "Voted best city park in America",
+        "address": "2100 Barton Springs Rd",
+        "image_url": "zilker.jpg",
+        "maps_url": "https://goo.gl/maps/dMLxQmHSMjTaznfc6",
         "url": "http://zilkerpark.org/"
       },
       {
         "title": "Barton Creek",
-        "subtitle": "",
-        "address": "",
-        "image_url": "",
-        "maps_url": "",
+        "subtitle": "Swim in a natural pool fed by underground springs",
+        "address": "Great hiking spot with natural swimming pools",
+        "image_url": "barton.jpg",
+        "maps_url": "https://goo.gl/maps/7jCiFgvkAwxymQ8r8",
         "url": "https://austinparks.org/barton-creek-greenbelt/"
       },
       {
         "title": "Lake Travis",
-        "subtitle": "",
-        "address": "",
-        "image_url": "",
-        "maps_url": "",
-        "url": ""
-      },
-      {
-        "title": "Hamilton Pool",
-        "subtitle": "",
-        "address": "",
-        "image_url": "",
-        "maps_url": "",
-        "url": "https://parks.traviscountytx.gov/parks/hamilton-pool-preserve"
-      },
-      {
-        "title": "Jacob's Well",
-        "subtitle": "",
-        "address": "",
-        "image_url": "",
-        "maps_url": "",
-        "url": "https://www.visitwimberley.com/jacobswell/"
+        "subtitle": "Beautiful lake with boat rentals, restaurants, and a clothing-optional beach",
+        "address": null,
+        "image_url": "travis.jpg",
+        "maps_url": "https://goo.gl/maps/PqfGfgL22GdXCW7D6",
+        "url": "https://laketravis.com/"
       },
       {
         "title": "Hippie Hollow",
-        "subtitle": "",
-        "address": "",
-        "image_url": "",
-        "maps_url": "",
+        "subtitle": "The only clothing-optional park in Texas",
+        "address": "7000 Comanche Trail",
+        "image_url": "hippiehollow.jpg",
+        "maps_url": "https://goo.gl/maps/6ZDfx8d5MH9tdh7n8",
         "url": "https://parks.traviscountytx.gov/parks/hippie-hollow"
       },
       {
         "title": "Pennybacker Bridge Overlook",
-        "subtitle": "",
-        "address": "",
-        "image_url": "",
-        "maps_url": "",
+        "subtitle": "A short climb to a gorgeous view of the Colorado River",
+        "address": "N Capital of Texas Hwy",
+        "image_url": "pennybacker.jpg",
+        "maps_url": "https://goo.gl/maps/3QmgMybfPxWa6EM48",
         "url": "https://www.hikingproject.com/trail/7042333/pennybacker-bridge-overlook-trail"
+      },
+      {
+        "title": "Hamilton Pool",
+        "subtitle": "A natural swimming pool in a canyon below a 50-ft waterfall surrounded by a grotto",
+        "address": "24300 Hamilton Pool Rd",
+        "image_url": "hamiltonpool.jpg",
+        "maps_url": "https://goo.gl/maps/AxruzkSYLW1awA359",
+        "url": "https://parks.traviscountytx.gov/parks/hamilton-pool-preserve"
+      },
+      {
+        "title": "Jacob's Well",
+        "subtitle": "A dangerous natural wonder and popular diving spot",
+        "address": "",
+        "image_url": "jacobswell.jpg",
+        "maps_url": "https://goo.gl/maps/8Pvxi1nqi7wVAw8U6",
+        "url": "https://www.visitwimberley.com/jacobswell/"
       }
     ]
   }

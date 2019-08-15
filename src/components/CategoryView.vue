@@ -12,7 +12,7 @@ div#category
           h3 {{ entry.title }}
           h4 {{ entry.subtitle }}
       div.links__wrapper
-        a.maps-link(:href='entry.maps_url') 
+        a.maps-link(:href='entry.maps_url', v-if='entry.maps_url') 
           img(:src='`${publicPath}icons/maps.png`')
           span View on map
         a.web-link(:href='entry.url') 
@@ -112,6 +112,10 @@ export default {
 
     cursor: pointer;
 
+    & + a {
+      margin-left: 0.5rem;
+    }
+
     img {
       width: 1rem;
       height: auto;
@@ -130,7 +134,6 @@ export default {
   }
 
   .web-link {
-    margin-left: 0.5rem;
     padding: 0.4rem 0.5rem;
     background-color: #2D3047;
   }
